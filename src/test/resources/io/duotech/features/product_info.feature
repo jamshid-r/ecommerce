@@ -2,7 +2,7 @@
 Feature: Product description
 		
 		
-		@test
+		
 		Scenario: Verify product name 
 		
 			Given I am on the homepage
@@ -10,7 +10,7 @@ Feature: Product description
 			Then The product page should also display Blouse
 		
 		
-		@test
+		@smoke
 		Scenario: Verify default product quantity
 		
 			Given I am on the homepage
@@ -41,6 +41,8 @@ Feature: Product description
 			Given the first step
 			When I do the second step
 			Then I verify the third step
+			
+	
 			
 
 			
